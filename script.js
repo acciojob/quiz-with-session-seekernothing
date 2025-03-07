@@ -84,7 +84,7 @@ document.getElementById("submit").addEventListener("click", () => {
     }
   })
   
-  document.getElementById("score").innerText = `Your score is ${score} out of 5`;
+  document.getElementById("score").innerText = `Your score is ${score} out of 5.`; // Added the period at the end
   localStorage.setItem("score", score.toString());
 })
 
